@@ -6,6 +6,24 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+html {
+  background-color: #eee9de;
   font-family: Lato, sans-serif;
+}
+
+body {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin: 1.5rem;
+}
+
+ul li {
+  display: inline-block;
+  text-align: left;
+  padding: .75em;
+}
+
+li {
+  text-decoration: none;
 }
