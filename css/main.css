@@ -1,29 +1,62 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-html {
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
-}
-
 body {
-  display: inline-block;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+section {
+  text-align: center;
+  padding: .2rem 0;
+}
+
+div {
   text-align: left;
+  max-width: 25rem;
+  display: inline-block;
   vertical-align: middle;
-  margin: 1.5rem;
+  padding: .75rem 1rem;
 }
 
-ul li {
+img {
+  display: block;
+  width: 100%;
+  max-width: 376px;
+}
+
+.btn {
   display: inline-block;
-  text-align: left;
-  padding: .75em;
+  padding: .5em .75em;
+  text-decoration: none;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 9px;
+  font-size: 1.1rem;
 }
 
-li {
-  text-decoration: none;
+.btn:hover {
+  color: #eee9de;
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-top: .5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
